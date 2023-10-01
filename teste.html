@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Horizontal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .section {
+            width: 100vw;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: #fff;
+            overflow-x: hidden;
+            white-space: nowrap;
+            margin-top: 5vh;
+            cursor: pointer;
+        }
+
+        #section1 {
+            background-color: #3498db;
+        }
+
+        #section2 {
+            background-color: #e74c3c;
+        }
+
+        #section3 {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <div id="section1" class="section">
+        <p>Seção 1 - Passe o mouse aqui para fazer scroll horizontal.</p>
+    </div>
+    <div id="section2" class="section">
+        <p>Seção 2 - Passe o mouse aqui para fazer scroll horizontal.</p>
+    </div>
+    <div id="section3" class="section">
+        <p>Seção 3 - Passe o mouse aqui para fazer scroll horizontal.</p>
+    </div>
+
+    <script>
+        document.querySelectorAll('.section').forEach(section => {
+            section.addEventListener('mouseenter', () => {
+                section.style.overflowX = 'auto';
+            });
+
+            section.addEventListener('mouseleave', () => {
+                section.style.overflowX = 'hidden';
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,8 +1,20 @@
 @import url(reset.css);
 @import url(cores.css);
-*{
+
+* {
     font-family: 'Urbanist', sans-serif;
 }
+
+P {
+    text-indent: 4em;
+    font-size: 14pt;
+    margin: 0em 2em;
+}
+
+p#autor {
+    justify-content: end;
+}
+
 #capa {
     background-image: url(../img/DreamShaper_v7_imagem_de_fundo_de_tela_profissional_para_site_0.jpg);
     background-position: top center;
@@ -17,7 +29,6 @@
     justify-content: center;
     scale: 0.8;
     transform: translateY(-12vh)
-
 }
 
 header {
@@ -56,15 +67,14 @@ nav#menu li {
     cursor: pointer;
 }
 
-.conteudo_texto{
-
+.conteudo_texto {
 
     text-decoration: none;
     height: 80vh;
     display: grid;
     gap: 8vh;
     grid-auto-flow: column;
-    grid-template-columns:15vw 25vw 25vw 25vw;
+    grid-template-columns: 15vw 25vw 25vw 25vw;
     line-height: 2rem;
 
     overflow-x: auto;
@@ -74,34 +84,38 @@ nav#menu li {
     align-items: first baseline;
     padding-top: 20%;
 }
-.conteudo_texto h1{
+
+.conteudo_texto h1 {
     line-height: 5rem;
 
 }
-.conteudo_texto  h2{
+
+.conteudo_texto h2 {
     font-size: 32pt;
 }
 
-.conteudo_texto h6{
+.conteudo_texto h6 {
     margin: 15pt;
     font-size: 20pt;
 }
 
-#aside_empresa{
+#aside_empresa {
     left: 0;
     height: 100vh;
     justify-content: center;
     align-items: center;
 
 }
-#aside_empresa h1{
+
+#aside_empresa h1 {
     position: relative;
     border-bottom: 2px solid var(--cor-botao);
     font-size: 26pt;
     padding: 1vw 2vw;
 
 }
-#div_empresa{
+
+#div_empresa {
     background-image: url("../img/predios.jpg");
 
 }
@@ -109,15 +123,27 @@ nav#menu li {
 
 
 #div_servicos {
-    height: 100vh;
+    height: 7%;
 }
 
 #div_area-cliente {
-    height: 100vh;
+
+    height: 70vh;
+    background-color: var(--avaliacao);
+}
+
+.conteudo_imagens img {
+    max-height: 6vh;
+
+}
+
+.div_comentario {
+    background-color: white;
+
 }
 
 #div_fale-conosco {
-    height: 100vh;
+    height: 70vh;
 }
 
 footer {
