@@ -1,6 +1,7 @@
 :root {
-    --cor-botao: rgb(169, 74, 30);
-    --nav_cabecalho_h1:rgb(255, 255, 255);
-    --ofwhite_opaco_borda:rgba(245, 234, 220,0.6) ;
-    --avaliacao:rgba(239, 183, 16, 0.178);
+    --verde-azulado:#204E51;
+    --branco:#FFFFFF;
+    --marrom-escuro:#242424 ;
+    --amarelo:#204E51;
+    --fonte-menu:#242424;
 }

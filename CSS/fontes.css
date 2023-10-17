@@ -1,3 +1,4 @@
-root{
-    --fonte_espindola:'Urbanist', sans-serif;
+*{
+    --fonte_espindola:'Inter', sans-serif;
+    
 }
