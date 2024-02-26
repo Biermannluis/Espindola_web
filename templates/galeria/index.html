@@ -1,97 +1,25 @@
-
-    {% extends 'base.html'%}
-    {%load static %}
-    {% block content %}
-    <header>
-        <nav>
-            <div id="itens-menu">
-                <div id="logo-nav-div">
-                    <img id="logo-nav" src="{% static  'assets/slide3.jpg'%}"
-                        alt="Logo da empresa Espindola consultoria">
-                </div>
-
-                <ul class="ul_menu">
-                    <li class="li_menu">Sobre nós</li>
-                    <li class="li_menu">Serviços</li>
-                    <li class="li_menu">Como Funciona</li>
-                    <li class="li_menu">Clientes</li>
-                    <li class="li_menu">Depoimentos</li>
-                </ul>
-            </div>
-            <div id="botao_menu_nav">
-                <input id="botao_menu" class="botao" type="button" class="btn-contato" value="Entre em contato">
-            </div>
+{% extends 'base.html'%}
+{%load static %}
+{% block content %}
+<header>
+    {%include 'partials/_nav.html'%}
+    {%include 'partials/_capa.html'%}
 
 
-        </nav>
+</header>
+<section>
+    {%include 'partials/_sobreNos.html'%}
+    {%include 'partials/_servicos.html'%}
 
-        <div id="capa">
-           
-            <div id="texto_capa">
-                <div id="texto_principal_capa">
-                    <h1>Licenciamento ambiental<br>
-                        para o seu emprendimento.</h1>
-
-                </div>
-                <div id="texto_secundario_capa">
-                    <h2>Realizamos tudo, desde estudos de viabilidade até gerenciamento <br>
-                        de alvarás e licenças para o seu projeto.</h2>
-
-                </div>
-                <div>
-                    <input type="button" class="botao" id="texto_capa_botao" value="Faça um orçamento">
-                </div>
-            </div>
+    {%include 'partials/_comoFunciona.html'%}
+    {%include 'partials/_nossosClientes.html'%}
+    {%include 'partials/_depoimentos.html'%}
+    {%include 'partials/_contato.html'%}
 
 
-        </div>
-    </header>
-    <section>
-        <div id="sobre_nos">
-            <div class="titulo_sesao" id="id_titulo_sesao_sobre_nos">
-                <p>Sobre nós</p>
-            </div>
-            <div class="paragrafo_destaque_centralizado">
-                <p>12 anos com experiencias com diversos setores</p>
-            </div>
-            <div class="paragrafo_simples_centralizado">
-                <p>Especializamo-nos na consultoria ambiental para crematórios, tendo trabalhado extensivamente com
-                    esses empreendimentos ao longo dos anos. Nossa equipe experiente compreende as nuances e os desafios
-                    específicos enfrentados por esse setor, garantindo que nossos clientes cumpram todas as
-                    regulamentações ambientais enquanto mantêm a excelência operacional.</p>
-            </div>
-            
-            <div id="sobre_nos_imagens_grid">
-                <img class="img_grid" src="{% static  'assets/sobre_nos/Rectangle 10.png' %}">
-                <img class="img_grid" src="{% static  'assets/sobre_nos/Rectangle 6 (1).png' %}">
-                <img class="img_grid" src="{% static  'assets/sobre_nos/Rectangle 6.png' %}">
-                <img class="img_grid" src="{% static  'assets/sobre_nos/Rectangle 7.png' %}">
-                <img class="img_grid" src="{% static  'assets/sobre_nos/Rectangle 8.png' %}">
-                <img class="img_grid" src="{% static  'assets/sobre_nos/Rectangle 9 (1).png' %}">
 
-            </div>
-           
-        </div>
+    
+</section>
+{%include 'partials/_footer.html'%}
 
-        <div id="servicos">
-            <div class="titulo_sesao" id="id_titulo_sesao_servicos">
-                <p>Serviços</p>
-            </div>
-            <div id="conteudo_servicos">
-                <div id="conteudo_servicos_texto">
-                    <h1>Consultoria Ambiental Profissional</h1>
-                    <p>
-                        Nossa consultoria ambiental ajuda sua empresa a prosperar de forma sustentável. Oferecemos
-                        orientação especializada para garantir que você atenda às regulamentações ambientais, minimize
-                        impactos negativos e promova práticas ecologicamente responsáveis. Deixe-nos cuidar do meio
-                        ambiente enquanto você se concentra nos negócios.
-                    </p>
-
-                </div>
-                <div id="conteudo_servicos_imagem">
-
-                </div>
-            </div>
-        </div>
-    </section>
 {%endblock%}
