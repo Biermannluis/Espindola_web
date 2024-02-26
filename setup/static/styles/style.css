@@ -1,0 +1,175 @@
+@import url(reset.css);
+@import url(cores.css);
+@import url(fontes.css);
+
+* {
+    /*background-color: aqua;*/
+    font-family: var(--fonte_espindola)
+}
+
+header {
+
+    height: 100vh;
+    width: 100vw;
+    
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+#itens-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+
+
+
+}
+
+#logo-nav-div{
+    align-items: center;
+    text-align: center;
+}
+#logo-nav {
+    position: relative;
+    height: 100%;
+    max-width: 150px;
+    
+}
+.ul_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 624px;
+    align-items: center;
+
+}
+
+.li_menu {
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+    color: var(--fonte-menu);
+}
+.botao_menu_nav{
+    align-items: center;
+
+
+}
+/*==========CAPA==========*/
+#capa {
+    display: flex;
+    background-image: url('../assets/capa_floresta.png');
+    width: 100vw;
+    color: var(--branco);
+    height: 90vh;
+    align-items: center;
+
+}
+
+
+
+.botao {
+    border-radius: 30px;
+    padding: 6px 20px;
+    font-size: 16pt;
+    font-weight: 200;
+
+}
+
+#botao_menu {
+    background-color: var(--verde-azulado);
+    color: var(--branco);
+
+}
+#texto_capa{
+    align-items: center;
+    margin:  0 6vw;
+   
+
+}
+
+#texto_capa h1 {
+    font-size: 64pt;
+    font-weight: bold;
+    line-height: 6rem;
+}
+
+#texto_capa h2 {
+    font-size: 20pt;
+}
+
+#texto_secundario_capa {
+    margin-top: 4vh;
+    margin-bottom: 15vh;
+}
+
+#texto_capa_botao {
+    background-color: var(--amarelo);
+
+}
+
+
+#sobre_nos {
+    display: block;
+    height: 100vh;
+
+
+
+}
+
+/*==================.......SOBRE NOS.......=============*/
+
+#id_titulo_sesao_sobre_nos {
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    width: 100vw;
+
+}
+
+.paragrafo_destaque_centralizado {
+    text-align: center;
+    font-size: 38pt;
+    font-weight: bold;
+    color: var(--verde-azulado);
+}
+
+.paragrafo_simples_centralizado {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 18pt;
+}
+
+.paragrafo_simples_centralizado p {
+    max-width: 50vw;
+
+}
+
+#sobre_nos_imagens_grid {
+    display: grid;
+    object-fit: cover;
+    width: 100%;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+
+
+}
+
+.img_grid {
+    width: 15vw;
+}
+
+/*==================.......SERVICOS.......=============*/

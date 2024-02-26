@@ -1,0 +1,137 @@
+
+@import url(reset.css);
+@import url(cores.css);
+@import url(fontes.css);
+* {
+    background-color: aqua;
+    font-family: var(--fonte_espindola)
+}
+
+#logo-nav img {
+    max-width: 10rem;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 5vw;
+    height: 10vh;
+}
+
+.botao {
+    border-radius: 30px;
+    padding: 6px 20px;
+    font-size: 16pt;
+    font-weight: 200;
+
+}
+
+#botao_menu {
+    background-color: var(--verde-azulado);
+    color: var(--branco);
+
+}
+
+.ul_menu {
+    display: flex;
+    width: 70vw;
+
+}
+
+.li_menu {
+    margin: 0 3vw;
+    font-weight: bold;
+    font-size: 14pt;
+    color: var(--fonte-menu);
+}
+
+#capa {
+    /*background-image: url("../img/bg-hero.png");*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 53vh;
+    color: var(--branco);
+    padding: 15vh 25vw 10vw 10vh;
+}
+
+
+#texto_capa h1 {
+    font-size: 64pt;
+    font-weight: bold;
+}
+
+#texto_capa h2 {
+    font-size: 20pt;
+}
+
+#texto_secundario_capa {
+    margin-top: 4vh;
+    margin-bottom: 15vh;
+}
+
+#texto_capa_botao {
+    background-color: var(--amarelo);
+
+}
+
+
+#sobre_nos {
+    display: block;
+    height: 100vh;
+
+
+
+}
+
+/*==================.......SOBRE NOS.......=============*/
+/*
+#id_titulo_sesao_sobre_nos {
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    width: 100vw;
+
+}
+
+.paragrafo_destaque_centralizado {
+    text-align: center;
+    font-size: 38pt;
+    font-weight: bold;
+    color: var(--verde-azulado);
+}
+
+.paragrafo_simples_centralizado {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 18pt;
+}
+
+.paragrafo_simples_centralizado p {
+    max-width: 50vw;
+
+}
+
+#sobre_nos_imagens_grid {
+    display: grid;
+    object-fit: cover;
+    width: 100%;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+
+
+}
+
+.img_grid {
+    width: 15vw;
+}
+*/
+/*==================.......SERVICOS.......=============*/
+
+
