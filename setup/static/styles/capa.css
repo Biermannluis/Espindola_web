@@ -1,0 +1,37 @@
+#capa {
+    display: flex;
+    background-image: url('../assets/capa_floresta.png');
+    width: 100vw;
+    color: var(--branco);
+    height: 90vh;
+    align-items: center;
+
+}
+
+#texto_capa{
+    align-items: center;
+    margin:  0 6vw;
+   
+
+}
+
+#texto_capa h1 {
+    font-size: 64pt;
+    font-weight: bold;
+    line-height: 6rem;
+}
+
+#texto_capa h2 {
+    font-size: 20pt;
+}
+
+#texto_secundario_capa {
+    margin-top: 4vh;
+    margin-bottom: 15vh;
+}
+
+#texto_capa_botao {
+    background-color: var(--amarelo);
+
+}
+

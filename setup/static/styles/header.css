@@ -1,0 +1,63 @@
+
+header {
+
+    height: 100vh;
+    width: 100vw;
+    
+
+}
+
+nav {
+    border: solid rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+#itens-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+
+
+
+}
+
+#logo-nav-div{
+    align-items: center;
+    text-align: center;
+}
+#logo-nav {
+    position: relative;
+    height: 100%;
+    max-width: 150px;
+    
+}
+.ul_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 624px;
+    align-items: center;
+
+}
+
+.li_menu {
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+    color: var(--fonte-menu);
+}
+.botao_menu_nav{
+    align-items: center;
+
+
+}
+
+#botao_menu {
+    background-color: var(--verde-azulado);
+    color: var(--branco);
+
+}

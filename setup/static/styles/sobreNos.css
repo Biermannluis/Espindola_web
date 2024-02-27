@@ -1,0 +1,47 @@
+
+#sobre_nos {
+    display: block;
+    height: 100vh;
+
+
+
+}
+
+
+
+.paragrafo_destaque_centralizado {
+    text-align: center;
+    font-size: 38pt;
+    font-weight: bold;
+    color: var(--verde-azulado);
+}
+
+.paragrafo_simples_centralizado {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 18pt;
+}
+
+.paragrafo_simples_centralizado p {
+    max-width: 50vw;
+
+}
+
+#sobre_nos_imagens_grid {
+    display: grid;
+    object-fit: cover;
+    width: 100%;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+
+
+}
+
+.img_grid {
+    width: 15vw;
+}
