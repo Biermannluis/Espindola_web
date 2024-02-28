@@ -1,0 +1,7 @@
+#servicos{
+    display: flex;
+    height: 100vh;
+}
+#conteudo_servicos_imagem{
+    background-image: url('../assets/imagem_servicos.png');
+}

@@ -2,9 +2,7 @@
 #sobre_nos {
     display: block;
     height: 100vh;
-
-
-
+    justify-content: center;
 }
 
 
@@ -22,12 +20,13 @@
     justify-content: center;
     margin: 15px 0;
     font-size: 18pt;
+    width: 100%;
+}
+.paragrafo_paragrafo_simples_centralizado{
+    max-width: 62%;
+    margin: 2rem;
 }
 
-.paragrafo_simples_centralizado p {
-    max-width: 50vw;
-
-}
 
 #sobre_nos_imagens_grid {
     display: grid;
@@ -37,7 +36,7 @@
     grid-template-rows: 200px 200px 200px;
     justify-content: center;
     align-items: center;
-    border: solid;
+    margin: 5rem 0;
 
 
 }

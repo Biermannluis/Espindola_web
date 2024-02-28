@@ -4,6 +4,7 @@
 @import url(sobreNos.css);
 @import url(header.css);
 @import url(capa.css);
+@import url(servicos.css);
 
 
 
@@ -20,25 +21,35 @@
     padding: 6px 20px;
     font-size: 16pt;
     font-weight: 200;
+    background-color: var(--verde-azulado);
+    color: var(--branco);
 
 }
 
 .titulo_secao {
+    display: flex;
+    justify-content: center;
     color: var(--preto);
     font-size: 16pt;
     align-items: center;
     margin-top: 20vh;
-    margin-bottom: 10vh;
+    margin-bottom: 8vh;
     width: 100%;
-    font-family: var(--fonte_espindola);
     text-transform: uppercase;
-    background-color: aqua  ;
 
 }
 
 .paragrafo_titulo_secao {
-    background-color: bisque;
+    padding: 5pt;
+    justify-content: center;
+
     border-bottom: solid 2px var(--verde-azulado);
     height: 16pt;
-    width: 5pt;
 }
+#div_botao_sobre_nos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
