@@ -1,7 +1,38 @@
-#servicos{
+#servicos {
     display: flex;
-    height: 100vh;
+    height: 80vh;
+    padding: 0 5vw; 
 }
-#conteudo_servicos_imagem{
+
+#conteudo_servicos_imagem {
     background-image: url('../assets/imagem_servicos.png');
+    background-repeat: no-repeat;
+
+}
+
+.esquerda {
+    width: 45vw;
+    background-color: antiquewhite;
+}
+
+.direita {
+    width: 45vw;
+    background-color: aqua;
+
+}
+
+#conteudo_subtitulo_servicos {
+    font-size: 28pt;
+    color: var(--verde-azulado);
+    left: 0;
+}
+
+#conteudo_texto_servicos {
+    left: 0;
+    width: 70%;
+    text-align: left;
+    line-height: 20pt;
+    font-size: 18pt;
+    margin-top: 2rem;
+    border: solid black;
 }

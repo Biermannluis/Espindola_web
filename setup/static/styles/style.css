@@ -42,8 +42,10 @@
 .paragrafo_titulo_secao {
     padding: 5pt;
     justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
 
-    border-bottom: solid 2px var(--verde-azulado);
+   /* border-bottom: solid 2px var(--verde-azulado);*/
     height: 16pt;
 }
 #div_botao_sobre_nos{
