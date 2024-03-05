@@ -2,22 +2,22 @@
     display: flex;
     height: 80vh;
     padding: 0 5vw; 
+    border: solid black;
 }
 
 #conteudo_servicos_imagem {
     background-image: url('../assets/imagem_servicos.png');
     background-repeat: no-repeat;
+    z-index: 1;
 
 }
 
 .esquerda {
-    width: 45vw;
-    background-color: antiquewhite;
+    width: 55vw;
 }
 
 .direita {
-    width: 45vw;
-    background-color: aqua;
+    width: 35vw;
 
 }
 
@@ -33,6 +33,14 @@
     text-align: left;
     line-height: 20pt;
     font-size: 18pt;
-    margin-top: 2rem;
-    border: solid black;
+    margin: 3rem 0;
+}
+#conteudo_com_check{
+    display: flex;
+    align-items: center;
+    font-size: 16pt;
+    line-height: 36pt;
+}
+#div_botao_servicos{
+    margin-top: 4rem;
 }
