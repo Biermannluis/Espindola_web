@@ -1,12 +1,12 @@
 #servicos {
     display: flex;
-    height: 80vh;
+    height: 70vh;
     padding: 0 5vw; 
-    border: solid black;
 }
 
 #conteudo_servicos_imagem {
     background-image: url('../assets/imagem_servicos.png');
+    background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;
 
@@ -29,11 +29,11 @@
 
 #conteudo_texto_servicos {
     left: 0;
-    width: 70%;
+    width: 60%;
     text-align: left;
     line-height: 20pt;
     font-size: 18pt;
-    margin: 3rem 0;
+    margin: 8rem 0;
 }
 #conteudo_com_check{
     display: flex;
@@ -42,5 +42,41 @@
     line-height: 36pt;
 }
 #div_botao_servicos{
-    margin-top: 4rem;
+    margin-top: 10rem;
+}
+#container_certificados{
+    display: flex;
+    flex-direction: column;
+
+}
+.conteudo_container_certificados{
+    display: flex;
+    align-items: center;
+    background-color: var(--branco);
+    z-index: 1;
+    transform: translate(-120px,550px);
+    margin: 0.5rem;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 50%;
+}
+.texto_conteudo_container_certificados{
+    display: flex;
+    flex-direction: column;
+    margin: .2rem;
+
+}
+.img_conteudo_container_certificados{
+    margin: 0 1rem;
+}
+.numero_texto_conteudo_container_certificados{
+    color: var(--verde-azulado);
+    font-weight: bold;
+    font-size: 24pt;
+}
+.legenda_texto_conteudo_container_certificados{
+    color: var(--cinza);
+    font-size: 18pt;
+    margin-top: .2rem;
+
 }
