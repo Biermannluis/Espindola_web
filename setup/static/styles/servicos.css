@@ -1,7 +1,7 @@
 #servicos {
     display: flex;
     height: 70vh;
-    padding: 0 5vw; 
+    padding: 0 5vw;
 }
 
 #conteudo_servicos_imagem {
@@ -34,53 +34,69 @@
     font-size: 18pt;
     margin: 5rem 0;
 }
-#conteudo_com_check{
+
+#conteudo_com_check {
     display: flex;
     align-items: center;
     font-size: 16pt;
     line-height: 36pt;
 }
-#div_botao_servicos{
+
+#div_botao_servicos {
     margin-top: 2rem;
 }
-#container_certificados{
+
+#container_certificados {
     display: flex;
     flex-direction: column;
 
 }
-.conteudo_container_certificados{
+
+.conteudo_container_certificados {
     display: flex;
     align-items: center;
     background-color: var(--branco);
-    transform: translate(-50%,250%);
+    transform: translate(-50%, 250%);
     margin: 0.5rem;
     padding: 1.2rem;
     border-radius: 20px;
     width: 50%;
 }
-.texto_conteudo_container_certificados{
+
+.texto_conteudo_container_certificados {
     display: flex;
     flex-direction: column;
     margin: .2rem;
 
 }
-.img_conteudo_container_certificados{
+
+.img_conteudo_container_certificados {
     margin: 0 1rem;
 }
-.numero_texto_conteudo_container_certificados{
+
+.numero_texto_conteudo_container_certificados {
     color: var(--verde-azulado);
     font-weight: bold;
     font-size: 24pt;
 }
-.legenda_texto_conteudo_container_certificados{
+
+.legenda_texto_conteudo_container_certificados {
     color: var(--cinza);
     font-size: 18pt;
     margin-top: .2rem;
 
 }
 
-.rodape_servicos{
-        background-image: url('../assets/servicos/ondaEspindola.png');
+#rodape_servicos {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    height: 8px;
+    margin: 5rem 0;
 
-
+}
+#rodape_servicos img{
+margin: 0 5rem;
 }
